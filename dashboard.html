@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/CSS/dashb.css">
+    <script src="https://use.fontawesome.com/1307a43189.js"></script>
+</head>
+<body>
+    <section class="secOne">
+        <nav class="navBar">
+            <!-- <ul id="logout">
+                <li class="navLi"><a href="">Log Out</a></li>
+            </ul> -->
+            <button id="logout">Log out</button>
+            <button id="online"></button>
+        </nav>
+        <div class="main">
+            <div class="aside">
+                <div class="list">
+                    <ul class="listOne">
+                        <li><i class="fa fa-bell" aria-hidden="true"></i><a href="/dashboard.html">Dashboard</a></li>
+                        <li><i class="fa fa-heartbeat" aria-hidden="true"></i><a href="/employee.html">Employees</a></li>
+                        <li><i class="fa fa-scissors" aria-hidden="true"></i><a href="/inventory.html">Inventory</a></li>
+                        <li><i class="fa fa-cogs" aria-hidden="true"></i><a href="/income.html">Income</a></li>
+                        <li><i class="fa fa-book" aria-hidden="true"></i><a href="/expense.html">Expense</a></li>
+                        <li><i class="fa fa-book" aria-hidden="true"></i><a href="/report.html">Report</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article"></div>
+        </div>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="/JS/config.js"></script>
+    <script src="JS/logOut.js"></script>
+</body>
+</html>
